@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Device common tree -->
+    <project name="aosp-a70q/android_device_samsung_sm6150-common" path="device/samsung/sm6150-common" remote="github" revision="lineage-20" />
+
+    <!-- Device specific tree -->
+    <project name="aosp-a70q/android_device_samsung_a70q" path="device/samsung/a70q" remote="github" revision="lineage-20" />
+
+    <!-- Hardware Samsung -->
+    <project name="aosp-a70q/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-20.0" />
+
+    <!-- Vendor common -->
+    <project name="aosp-a70q/android_vendor_samsung_sm6150-common" path="vendor/samsung/sm6150-common" remote="github" revision="13.0" />
+
+    <!-- Vendor proprietary for a70q -->
+    <project name="aosp-a70q/proprietary_vendor_samsung_a70q" path="vendor/samsung/a70q" remote="github" revision="lineage-20" />
+
+    <!-- Kernel -->
+    <project name="aosp-a70q/android_kernel_samsung_sm6150" path="kernel/samsung/sm6150" remote="github" revision="lineage-20" />
+
+</manifest>
